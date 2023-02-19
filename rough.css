@@ -1,0 +1,16 @@
+
+ul{
+    display: inline;
+    list-style-type: none;
+}
+li{
+    display: inline;
+}
+.table_netflix{
+    position: absolute;
+    border: 1px solid gray;
+    color: whitesmoke;
+    background-color: black;
+    height: 100px;
+    width: 400px;
+    }

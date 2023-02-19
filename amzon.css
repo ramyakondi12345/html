@@ -1,0 +1,335 @@
+html,body{
+    overflow-x: hidden !important;
+    width: 100%;
+}
+
+.my_data{
+    margin-top: 100px;
+}
+.my_data h1{
+    font-size: 58px;
+}
+/* .my_input{
+    margin-left: 150px;
+    
+} */
+.my_input input{
+    height: 60px;
+    padding-right: 200px;
+    font-size: 30px;
+
+}
+.my_input button{
+    height: 60px;
+    font-size: 30px;
+}
+.header{
+    padding-bottom: 100px;
+    overflow-x: hidden;
+    border-bottom: 10px solid gray;
+}
+.logo{
+    font-size: 50px;
+}
+.part_2{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-bottom: 10px solid gray;
+    
+}
+.my_tv1{
+    padding: 80px 10px;
+}
+.part_2{
+    padding: 10px;
+}
+.part_2 h1{
+    font-size: 58px;
+}
+
+.img_video{
+    position: relative;
+    z-index: 1000;
+}
+.video{
+    position: absolute;
+    top: 21%;
+    left: 20%;
+    z-index: -100;
+}
+
+@media screen and (min-width:0px) and (max-width:320px){
+    .video {
+        position: absolute;
+        top: 7%;
+        left: 6%;
+        z-index: -100;
+        width: 86%;
+        height: 135px;
+        overflow: hidden;
+        /* vertical-align: middle; */
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:424px){
+    .video {
+        position: absolute;
+        top: 6%;
+        left: 7%;
+        z-index: -100;
+        width: 85%;
+        height: 170px;
+        overflow: hidden;
+    }
+    .video1{
+        height: fit-content;
+        width: fit-content;
+    }
+}
+@media screen and (min-width:425px) and (max-width:767px){
+    .video {
+        position: absolute;
+        top: 6%;
+        left: 7%;
+        z-index: -100;
+        width: 86%;
+        height: 196px;
+        overflow: hidden;
+    }
+}
+@media screen and (min-width:768px) and (max-width:948px) {
+    .video {
+        position: absolute;
+        top: 9%;
+        left: 9%;
+        z-index: -100;
+        width: 82%;
+        height: 318px;
+        overflow: hidden;
+    }
+}
+@media screen and (min-width:945px) and (max-width:1439px) {
+    .video {
+        position: absolute;
+        top: 9%;
+        left: 7%;
+        z-index: -100;
+        width: 86%;
+        height: 275px;
+        overflow: hidden;
+    }
+}
+@media screen and (min-width:1440px) and (max-width:2000px) {
+    .video {
+        position: absolute;
+        top: 9%;
+        left: 4%;
+        z-index: -100;
+        width: 89%;
+        height: 320px;
+        overflow: hidden;
+    }
+}
+@media screen and (min-width:2001px){
+    .video {
+        position: absolute;
+        top: 14%;
+        left: 11%;
+        z-index: -100;
+        width: 78%;
+        height: 283px;
+        overflow: hidden;
+    }
+}
+.part_3{
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    height: 100%;
+}
+.mobile_content{
+    padding: 150px 10px;
+ 
+}
+.mobile_content h1{
+    font-size: 58px;
+
+}
+.image_mobile {
+    position: absolute;
+    display: inline-flex;
+    top: 350px;
+    left: 133px;
+    border: 3px solid gray;
+    border-radius: 26px;
+    background-color: black;
+    height: 100px;
+    width: 383px;
+    /* margin: 33px; */
+}
+.image_mobile0, .image_mobile2{
+    display: inline-flex;
+    padding: 0px 35px;
+}
+
+@media screen and (min-width:0px) and (max-width:320px){
+    .mobile_content{
+        padding: 150px 10px;
+     
+    }
+    .mobile_content h1{
+        font-size: 58px;
+    
+    }
+    .image_mobile {
+        position: absolute;
+        display: inline-flex;
+        top: 350px;
+        left: 133px;
+        border: 3px solid gray;
+        border-radius: 26px;
+        background-color: black;
+        height: 100px;
+        width: 383px;
+        /* margin: 33px; */
+    }
+    .image_mobile0, .image_mobile2{
+        display: inline-flex;
+        padding: 0px 35px;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:424px){
+    .mobile_content{
+        padding: 150px 10px;
+     
+    }
+    .mobile_content h1{
+        font-size: 58px;
+    
+    }
+    .image_mobile {
+        position: absolute;
+        display: inline-flex;
+        top: 350px;
+        left: 133px;
+        border: 3px solid gray;
+        border-radius: 26px;
+        background-color: black;
+        height: 100px;
+        width: 383px;
+        /* margin: 33px; */
+    }
+    .image_mobile0, .image_mobile2{
+        display: inline-flex;
+        padding: 0px 35px;
+    }
+}
+@media screen and (min-width:425px) and (max-width:767px){
+    .mobile_content{
+        padding: 150px 10px;
+     
+    }
+    .mobile_content h1{
+        font-size: 58px;
+    
+    }
+    .image_mobile {
+        position: absolute;
+        display: inline-flex;
+        top: 350px;
+        left: 133px;
+        border: 3px solid gray;
+        border-radius: 26px;
+        background-color: black;
+        height: 100px;
+        width: 383px;
+        /* margin: 33px; */
+    }
+    .image_mobile0, .image_mobile2{
+        display: inline-flex;
+        padding: 0px 35px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:948px) {
+    .mobile_content{
+    padding: 150px 10px;
+ 
+}
+.mobile_content h1{
+    font-size: 58px;
+
+}
+.image_mobile {
+    position: absolute;
+    display: inline-flex;
+    top: 350px;
+    left: 133px;
+    border: 3px solid gray;
+    border-radius: 26px;
+    background-color: black;
+    height: 100px;
+    width: 383px;
+    /* margin: 33px; */
+}
+.image_mobile0, .image_mobile2{
+    display: inline-flex;
+    padding: 0px 35px;
+}
+}
+
+@media screen and (min-width:945px) and (max-width:1439px) {
+    .mobile_content{
+        padding: 150px 10px;
+     
+    }
+    .mobile_content h1{
+        font-size: 58px;
+    
+    }
+    .image_mobile {
+        position: absolute;
+        display: inline-flex;
+        top: 350px;
+        left: 133px;
+        border: 3px solid gray;
+        border-radius: 26px;
+        background-color: black;
+        height: 100px;
+        width: 383px;
+        /* margin: 33px; */
+    }
+    .image_mobile0, .image_mobile2{
+        display: inline-flex;
+        padding: 0px 35px;
+    }
+
+}
+
+@media screen and (min-width:1440px) and (max-width:2000px) {
+    .mobile_content{
+        padding: 150px 10px;
+     
+    }
+    .mobile_content h1{
+        font-size: 58px;
+    
+    }
+    .image_mobile {
+        position: absolute;
+        display: inline-flex;
+        top: 350px;
+        left: 133px;
+        border: 3px solid gray;
+        border-radius: 26px;
+        background-color: black;
+        height: 100px;
+        width: 383px;
+        /* margin: 33px; */
+    }
+    .image_mobile0, .image_mobile2{
+        display: inline-flex;
+        padding: 0px 35px;
+    }
+}
